@@ -4,4 +4,4 @@ python-multipart
 sqlalchemy
 pydantic
 PyPDF2
-scikit
+scikit-learn
