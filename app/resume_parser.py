@@ -12,7 +12,6 @@ match = re.search(pattern, text)
 return match.group(0) if match else "Not Found"
 def extract_name(text: str):
 lines = text.split('\n')
-3
 for line in lines:
 if len(line.strip()) > 2:
 return line.strip()
