@@ -1,7 +1,8 @@
 from pydantic import BaseModel
+
 class ResumeResponse(BaseModel):
-candidate_name: str
-email: str
-score: float
-matched_skills: list
-missing_skills: list
+    candidate_name: str
+    email: str
+    score: float
+    matched_skills: list
+    missing_skills: list
