@@ -1,7 +1,6 @@
 # AI Resume Analyzer
 An AI-powered resume analysis system built using:- FastAPI- Python- NLP concepts- scikit-learn- SQLite
 ## Features- Upload resume PDF- Extract candidate details
-7
 - Match skills- Generate resume score- Store results in database
 ## Run Locally
 ### Install dependencies
